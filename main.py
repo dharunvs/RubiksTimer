@@ -50,6 +50,7 @@ class App:
 
         self.patterns = []
         self.all_scores = []
+        self.show_scores_list = []
         self.show_scores = ""
         self.sh = 20
         self.load_patterns()
@@ -127,7 +128,9 @@ class App:
                 temp = temp.split('\n')
                 score = temp
 
-        for i in score:
+        for i in range(len(score)):
+            self.show_scores_list.append(score[-i+1])
+        for i in self.show_scores_list:
             self.show_scores += f"{i}\n"
 
     def reset_choice(self):
