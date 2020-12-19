@@ -1,0 +1,6 @@
+0:6:74 - R2 D D L' L D F2 F' L D B2 L' D' D' B2 B2
+0:3:28 - D L U' F' B U' D D F' B2 B D2 B D' B D' R'
+0:1:31 - F' R' F B2 B' U' U F' B D F' R F' U2 U L' D U2
+0:0:56 - B' F2 R2 D R' L U D2 U F2 R B2 F2 B' R2
+0:0:94 - D2 F2 U2 R B' R2 U' B2 F2 U' B' U2 F2 L B2 R' U L' R U' F L2 R D2 L' D2 R2 F R' B2
+0:0:94 - D2 F2 U2 R B' R2 U' B2 F2 U' B' U2 F2 L B2 R' U L' R U' F L2 R D2 L' D2 R2 F R' B2
