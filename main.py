@@ -128,7 +128,7 @@ class App:
                 score = temp
 
         for i in score:
-            self.all_scores.append(i)
+            self.show_scores += f"{i}\n"
 
     def reset_choice(self):
         self.scramble = choice(self.patterns)
@@ -250,7 +250,7 @@ class App:
         self.draw_text("Score", (0, 50), 38,
                        BLACK, centered=True)
 
-        self.draw_text("hi\nhi", (0, 90), 24,
+        self.draw_text(self.show_scores, (0, 90), 24,
                        BLACK, centered=True)
 
         pygame.display.update()
